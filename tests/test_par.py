@@ -6,7 +6,6 @@ from exercicis.operacions import esParell
 
 # Classe per a la creació de tests.
 class TestClass:
-
     # Test per a l'operació esParell
     def test_par(self):
         assert esParell(4) == "parell"

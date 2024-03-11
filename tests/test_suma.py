@@ -6,7 +6,6 @@ from exercicis.operacions import suma
 
 # Classe per a la creació de tests.
 class TestClass:
-
     # Test per a l'operació suma
     def testSuma(self):
         assert suma(3,1) == 4
